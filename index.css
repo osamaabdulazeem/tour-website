@@ -5,10 +5,10 @@
 *{font-family: poppins-medium;}
 .top-heading{font-size: larger;
 font-weight: 300;}
-.main-div{background-color: aqua;
+.main-div{background-color: rgba(175, 230, 230, 0.63);
 padding: 30px;
 margin-bottom: 20px;}
-h3,p{text-align: center;}
+h3,.search{text-align: center;}
 input{margin: 0 auto;
 display: block;
 padding: 10px;
@@ -17,7 +17,183 @@ width: 600px;
 border-radius: 30px;
 }
 h1{text-align: center;
-    text-shadow: gray 2px 2px 2px ;
+    text-shadow: rgb(27, 110, 11) 2px 2px 2px ;
+    padding-top: 90px;
 }
-h1{font-size: 100px;}
-.head-div{background-color: aqua;}
+h1{font-size: 60px;}
+/* .head-div{background-color: aqua;} */
+body{margin: 0%;
+padding: 0%;}
+.logo{height: 90px;
+width: 150px;}
+.navbar{height: 80px;
+width: 98%;
+background-color: rgb(245, 243, 243);
+display: flex;
+justify-content:space-between;
+padding-left: 20px;
+padding-right: 20px;
+align-items: center;
+box-shadow: 0px 1px 2px #ccc;
+position: fixed
+}
+.navbar + ul {
+  position: relative;
+}
+i{
+  margin-right: 5px;
+  color: green;
+
+}li > a {
+  text-decoration: none;
+  color: black;
+}.show_nested:hover .nested {
+  display: inline;
+}
+.tour-karachi{text-align: left;}
+
+
+
+li{display: inline-block;
+/* background-color:gray; */
+/* border-radius:30px; */
+padding: 20px;
+cursor: pointer;}
+
+li:hover{border-bottom-width:3px ;
+border-bottom-color:green ;
+border-bottom-style:solid ;}
+li>a{text-decoration: none;
+display: inline;}
+.hotels{height: 30px;
+width: 50px;}
+.karachi-card{border-radius: 10px;
+display: flex;
+text-align: left;}
+.karachi_card {
+  height: 350px;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 3px 5px;}
+  /* position: relative;} */
+.main-box{
+width: 100%; 
+min-height: 300px;
+justify-content:space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.child{ 
+  height: 80px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 10px;
+  /* background-color: aqua;  */
+  /* padding-top: 5px; */
+/* justify-content:space-between; */
+border-radius: 5px;
+
+}
+.box1{
+color:black;
+justify-content: space-between;
+border-radius: 30px;
+font-size: 20px;
+border: 3px solid black;
+padding-left: 2px;
+margin-right: 2px;}
+.box2{
+  color:black;
+  justify-content: space-between;
+  border-radius: 30px;
+  font-size: 20px;
+  border: 3px solid black;
+  padding-left: 2px;
+  margin-right: 2px;}
+  .box3{
+    color:black;
+    justify-content: space-between;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 3px solid black;
+    padding-left: 2px;
+    margin-right: 2px;}
+    .box4{
+      color:black;
+      justify-content: space-between;
+      border-radius: 30px;
+      font-size: 20px;
+      border: 3px solid black;
+      padding-left: 2px;
+      margin-right: 2px;}
+      .box5{
+        color:black;
+        justify-content: space-between;
+        border-radius: 30px;
+        font-size: 20px;
+        border: 3px solid black;
+        padding-left: 2px;
+        margin-right: 2px;}
+        .box6{
+          color:black;
+          justify-content: space-between;
+          border-radius: 30px;
+          font-size: 20px;
+          border: 3px solid black;
+          padding-left: 2px;
+          margin-right: 2px;}
+          .box7{
+            color:black;
+            justify-content: space-between;
+            border-radius: 30px;
+            font-size: 20px;
+            border: 3px solid black;
+            padding-left: 2px;
+            margin-right: 2px;}
+            .box8{
+              color:black;
+              justify-content: space-between;
+              border-radius: 30px;
+              font-size: 20px;
+              border: 3px solid black;
+              padding-left: 2px;
+              margin-right: 2px;}
+              .box9{
+                color:black;
+                justify-content: space-between;
+                border-radius: 30px;
+                font-size: 20px;
+                border: 3px solid black;
+                padding-left: 2px;
+                margin-right: 2px;}
+                .box10{
+                  color:black;
+                  justify-content: space-between;
+                  border-radius: 30px;
+                  font-size: 20px;
+                  border: 3px solid black;
+                  padding-left: 2px;
+                  margin-right: 2px;}
+            .trip-box{background-color: bisque;
+           min-height: 400px;
+            min-width: 1000px;
+          display: flex;
+        justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+            .trip-child{
+              padding-left: 20px;
+              padding-top: 80px;
+              
+            }
+            
+      
